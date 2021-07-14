@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 80px;
+    line-height: 106px;
+}
+h2{
+    font-size: 64px;
+    line-height: 84px;
+}
+p{
+    font-size: 24px;
+    line-height: 36px;
+}
+.header{
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true) center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 308px;
+}
+.header .header-special-style{
+    margin: 32px 0 40px 13px;
+}
+.header img{
+    margin: 0 8px;
+}
+.header img:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.about{
+    text-align: center;
+    padding: 56px 0;
+}
+.about img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.about ul{
+    width: 384px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-top: 1px solid #707070;
+}
+.about ul li{
+    margin-top: 28px;
+    font-size: 24px;
+    line-height: 42px;
+}
+.about ul li::before{
+    content: "\25CF  ";
+    color: #891818;
+}
+
+.brand{
+    background-color: #000000;
+    padding-top: 56px;
+    padding-bottom: 160px;
+    color: #fff;
+    text-align: center;
+}
+.brand ul{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.brand img{
+    margin: 40px 12px 0 12px;
+}
+.brand p{
+    margin: 16px 0;
+}
+
+.work{
+    padding: 56px 0 96px 0;
+    text-align: center;
+}
+.work ul{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.work ul li p{   
+    font-size: 20px;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+.work ul li a{
+    text-decoration: none;
+    color:#000;
+    opacity: 0.8;
+}
+.work ul li a:hover{
+    transition: 0.4s;
+    color: #891818;
+    opacity: 1;
+}
+
+.footer{
+    padding: 56px 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.footer li{
+    margin: 8px 0;
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer a:hover{
+    transition: 0.4s;
+    color: #891818;
+}
